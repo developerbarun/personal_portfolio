@@ -43,8 +43,10 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
+              
             </div>
           </div>
+          
         </div>
 
         <div className='mt-5'>
@@ -80,11 +82,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
+          I'd love for you to check out some projects I've worked on. They're not only a testament to my skills and experience but also reflect my journey in tackling challenging problems, exploring different technologies, and honing my project management chops. Each project is accompanied by a brief description and links to both the code repository and live demo. Feel free to take a look and see what you think!
+
+          {/* Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          and manage projects effectively. */}
         </motion.p>
       </div>
 

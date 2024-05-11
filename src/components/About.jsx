@@ -41,11 +41,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 0.1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with expertise in frameworks like
-        React, Node.js and Three.js. I'm a quick learner and collaborate closely
+        {/* I'm a skilled software developer with expertise in frameworks like
+        React, Node.js etc. I'm a quick learner and collaborate closely
         with clients to create efficient, scalable, and user-friendly solutions
-        that solve real-world problems. Let's work togethrt to bring your ideas
-        to life
+        that solve real-world problems. Let's work together to bring your ideas
+        to life */}
+        As a seasoned software developer fluent in frameworks like React, Node.js, and Three.js, I thrive on tackling challenges head-on. My knack for quick learning and seamless collaboration with clients ensures the creation of efficient, scalable, and user-friendly solutions that address real-world problems. Let's team up and transform your ideas into reality.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 ">

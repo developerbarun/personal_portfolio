@@ -30,8 +30,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import womensafety from "./womenSafety.png"
+import fitness from "./fitness.png"
+import tree from "./tree.png";
+import plant from "./plant.png"
 
 export {
+  plant,
+  tree,
+  fitness,
+  womensafety,
   aws,
   python,
   logo,
