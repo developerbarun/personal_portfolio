@@ -25,7 +25,7 @@ const Hero = () => {
           Mixing code with comedy, because<br className="sm:block hidden" />
           life's too short for serious programming!
           </p>
-          <button className="relative w-[135px] h-[40px] border-2 mt-4 rounded-3xl z-50" onClick={downloadResume} > Resume </button>
+          <button className="bg-black relative w-[135px] h-[40px] border-2 mt-4 rounded-3xl z-50" onClick={downloadResume} > Resume </button>
         </div>
       </div>
       <ComputersCanvas/>
