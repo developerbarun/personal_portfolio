@@ -5,6 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
+  if (isMobile) return null;
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
@@ -58,7 +59,6 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-        autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2.3}
           minPolarAngle={Math.PI / 2.3}
