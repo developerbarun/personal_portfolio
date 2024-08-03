@@ -38,13 +38,14 @@ export const navLinks = [
     title: "About",
   },
   {
-    id : "skills",
-    title : "Skill"
-  },
-  {
     id: "work",
     title: "Work",
   },
+  {
+    id : "skills",
+    title : "Skill"
+  },
+  
   {
     id: "project",
     title: "Project"
@@ -137,14 +138,25 @@ const experiences = [
     company_name: "Hindustan Aeronautics Limited",
     icon: meta,
     iconBg: "#383E56",
-    date: "June 2020 - July 2021",
+    date: "June 2023 - July 2023",
     points: [
       "Worked on a Python Offline Model to Denoise audio recordings from Pilot microphones and convert them into text transcripts with 88% accuracy, enhancing Pilot communication under the Software Design Division.",
       "Explored diverse software technologies, mastering two distinct languages and frameworks, contributing to a 25% increase in coding versatility. Proficiently documented the process.",
       "Analyzed and documented workflow processes across seven divisions at HAL, identifying bottlenecks and proposing improvements that led to a 20% increase in operational efficiency.",
     ],
   },
-    
+  // {
+  //   title: "Machine Learning Intern",
+  //   company_name: "ICICI Prudential Life Insurance",
+  //   icon: tesla,
+  //   iconBg: "#383E56",
+  //   date: "June 2024 - July 2024",
+  //   points: [
+  //     "Developed predictive models on loan datasets with 97% accuracy score to enhance decision-making processes.",
+  //     "Utilized SQL for efficient data extraction, transformation, and loading (ETL) operations.",
+  //     "Conducted in-depth data analysis to identify trends and provide actionable insights.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

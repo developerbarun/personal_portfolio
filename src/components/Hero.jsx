@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const downloadResume = () => {
-  const resumeUrl = 'https://drive.google.com/file/d/1mQgwhSXKkBg3d2AiTiE-KtzctCNdAUIT/view?usp=sharing';
+  const resumeUrl = 'https://drive.google.com/file/d/1Rf9tlApQDDsoc9UsT_T9sH1VO6kjdZC6/view?usp=sharing';
   window.open(resumeUrl, '_blank');
 };
 
